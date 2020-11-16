@@ -1,0 +1,23 @@
+
+In this exercise we will create the 2013 to 2016 sub-folders in the weather folder and populate them
+ with the csv files from the zip files folders for each corresponding year.
+
+1 Load the tidyverse library
+
+2 Create the 2013 to 2016 sub-folders in the Weather folder using the walk() function
+  Note that you may have to create a function that will create a single folder then use that with the walk()
+
+3 Create a function that would import 100,000 rows from any of the csv files in the Exercise data folder
+  and write in to the corresponding folders you created in in step 2
+
+4 Use that function with a walk() to loop through 2013 to 2016
+
+Bonus
+
+5 Delete the csv you just created
+
+6 repeat step 3 but rather than reading (or importing) and writing (exporting) use copy and paste
+
+8 repeat step 4 with the function from step 6
+
+9 Save, commit, and push to github

@@ -1,0 +1,22 @@
+1 load the tidyverse and R.utils libraries
+
+2 list files in the zip files/Exercise Data/ path. Get the full path.
+
+3 save these paths to a vector. Call it myzipfile
+
+4 use a for() loop to unzip these files. Make sure to use remove = F to keep both the zipped and unzipped files
+
+5 Use one of the following ways to delete the .csv files you just unzipped. We want to redo it with a walk
+
+ a manually remove by selecting the file and removing them or 
+
+ b run these scripts
+
+   file.remove("Zip files/Excersise Data/2013.csv")
+
+   rm_files <- list.files(path = 'Zip files/Excersise Data/', pattern = 'csv$', full.names = T)
+   walk(.x = rm_files, .f = file.remove)
+
+6 use the walk() function to unzip the same files in the Exercise Data/folder
+
+7 Save the script, commit, push to github, and verrify it uploaded
