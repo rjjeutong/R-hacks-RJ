@@ -14,7 +14,7 @@
 
 8. Get the node for the actor's name and go to R and scrape all the actors name from that first page. Save it under a variable; call it actor
 
-9. Repeat step 9 but get this time get the text underneat the actor's name. Save this variable as actor
+9. Repeat step 9 but get this time get the text underneat the actor's name. Save this variable as about_actor
 
 10. Get the link under the actor's name. Use the paste0() function to complete these URLs and save them in a variable called actor_link
 
